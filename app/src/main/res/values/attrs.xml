@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 带分割线的网格布局  inScrollView：是否放在可滚动的GroupView中 -->
+    <declare-styleable name="LineGridView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="dividerColor" format="color" />
+        <attr name="showButtonLine" format="boolean"/>
+        <attr name="showTopLine" format="boolean"/>
+        <attr name="inScrollView" format="boolean"/>
+    </declare-styleable>
+
+</resources>
